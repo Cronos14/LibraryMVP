@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Applex</string>
+    <string name="label">Applex</string>
+    <string name="account_type">com.hitss.authenticatorexample</string>
+    <string name="usuario">Usuario</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="contrasenia">Contraseña</string>
+
+    <!-- Fingerprint strings -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fingerprint_not_recognized">Huella digital no reconocida, Intente de nuevo</string>
+    <string name="fingerprint_success">Huella digital reconocida</string>
+    <string name="fingerprint_hint">Toca el sensor</string>
+    <string name="fingerprint_description">Confirma Huella digital para continuar</string>
+    <string name="description_fingerprint_icon">Huella digital icono</string>
+    <string name="password_description">Introduce tu password para continuar</string>
+    <string name="new_fingerprint_enrolled_description">Una nueva Huella digital se a agregado al dispositivo, la contraseña es requerida</string>
+    <string name="use_password">Usar contraseña</string>
+    <string name="use_fingerprint_in_future">Usar Huella digital en el futuro</string>
+    <string name="password">Contraseña</string>
+    <string name="use_fingerprint_to_authenticate_key">Usar Huella digital para autenticar</string>
+    <string name="sign_in">Iniciar Sesión</string>
+
+    <!-- Login -->
+    <string name="login">Iniciar Sesión</string>
+
+    <!-- General -->
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+</resources>

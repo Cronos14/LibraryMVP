@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_vertical_margin">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+    <TextView
+        android:id="@+id/tv_etiqueta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hola!"
+        android:textSize="@dimen/text_size_body_list"/>
+
+    <TextView
+        android:id="@+id/tv_valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_header_list"
+        android:text=""/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
