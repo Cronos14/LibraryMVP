@@ -118,12 +118,9 @@ Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
 
 bintray {
-    //user = properties.getProperty("bintray.user")
-    //key = properties.getProperty("bintray.apikey")
-
-    user = 'javatar'
-    key = '3cdef2b2439d7e402e5c2d539b7fd7d113a6e6c2'
-
+    user = properties.getProperty("bintray.user")
+    key = properties.getProperty("bintray.apikey")
+    
     configurations = ['archives']
     pkg {
         repo = bintrayRepo
